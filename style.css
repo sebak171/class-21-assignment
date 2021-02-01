@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .main-div{
+    width: 80%;
+    height: auto;
+    margin: auto;
+} */
+.clereFixed::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.FixedWidth{
+    width: 1200px;
+    margin: auto;
+}
+.Text-Right{
+        text-align: right;
+}
+.Text-Center{
+    text-align: center;
+}
+
+/* hadder-part */
+
+.hadder{
+    background: #116655;
+    padding: 13px;
+}
+.hadder-left{
+    float: left;
+    width: 40%;
+    text-align: left;
+
+}
+.hadder-left a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    
+}
+.hadder-left a span{
+    font-size: 27px;
+    margin-left: 11px;
+}
+.hadder-right{
+    float: right;
+    width: 60%;
+}
+
+
+.hadder-right ul{
+         text-align:right;
+}
+.hadder-right ul li {
+            display: inline-block;
+            line-height: 29px;
+            margin: 1px -2px;
+}
+.hadder-right ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+    padding: 18px 21px;transition: all .5s;
+}
+.hadder-right ul li a:hover{
+    background: #05886e;
+    border-radius: 10px;
+}
+
+/* banner-part */
+
+.banner{
+    background-image: url(https://illuminations.ae/wp-content/uploads/2018/03/main-banner-img-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+}
+.banner-part{
+    padding: 200px;
+}
+.banner-part h2{
+    color: black;
+}
+.banner-part p{
+    font-size: 20px;
+    line-height: 64px;
+}
+.banner-part a{
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 10px;
+    color: rgb(248, 246, 246);
+    font-size: 20px;
+    transition: all .5s;
+    position: relative;
+    background:  #0f878e;
+    z-index: 1;
+}
+.banner-part a::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:#4bc4cc;
+    border-radius: 10px;
+    transition: all .5s;
+    z-index: -1;
+}
+.banner-part a:hover::before{
+    height: 100%;
+}
+
+/* services-part */
+
+.service{
+       background: #ffffff;
+}
+.section-1{
+        color: black;
+}
+.section-1 h2{
+    margin: 15px 0;
+}
+.ssection-1 p{
+    float: left;
+}
+
+/* services part-2 */
+
+
+.services-part-2{
+    border-bottom: 2px solid #baeade;
+}
+.section-part-2 {
+	float: left;
+	width: 22%;
+	margin: 35px 0;
+    margin-left: 25px;
+    box-sizing: border-box;
+	padding: 14px;
+}
+.section-part-2 span {
+	color: #0ce2b7;
+	font-size: 21px;
+	background: #000;
+	padding: 10px;
+	border-radius: 20px 7px 20px;
+}
+.section-part-2 h2{
+        color: rgb(5, 1, 1);
+        line-height: 52px;
+}
+.section-part-2 p{
+    max-width: 300px;
+}
+
+
+/* About part */
+
+.About h2 {
+	color: rgb(26, 24, 24);
+	line-height: 45px;
+	background: rgb(206, 205, 205);
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 20px 0;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.About h2:hover{
+    background: red;
+    left: 0;
+    top: 0;
+}
+.About h2 p{
+    font-size: 20px;
+}
+
+/* contan part */
+
+.contan-part{
+    margin: 40px 0;
+}
+.contan-left {
+	float: left;
+	width: 50%;
+	margin-right: 70px;
+}
+.contan-left img {
+	width: 504px;
+	margin-top: 24px;
+}
+.contan-right {
+	float: left;
+	width: 42%;
+	margin-top: 10px;
+}
+
+.contan-right h2{
+    color: rgb(8, 5, 5);
+    line-height: 46px;
+}
+.contan-right p {
+	width: 450px;
+	height: auto;
+	line-height: 19px;
+}
+
+/*  contact part */
+
+.contact-part{
+   padding: 20px;
+   background: #f6f6f6;
+}
+.myself h2{
+    line-height: 50px;
+}
+.myself p{
+    line-height: 30px;
+}
+.contact-1 {
+	color: #0dbf9b;
+	float: left;
+	width: 33%;
+	margin: 30px 0;
+}
+.contact-1 span{
+    font-size: 20px;
+}
+.contact-1 span i{
+    margin-bottom: 20px;
+}
+.contact-1 p{
+    color: rgb(14, 1, 1);
+}
+
+/* footer part */
+
+.footer-part {
+	background: #0dbf9b;
+	padding: 15px 0;
+	text-align: center;
+}
+.footer-part a {
+    margin: 0 24px;
+    text-decoration: none;
+}
+.footer-part i{
+    font-size: 20px;
+    color: rgb(245, 243, 243);
+    transition: all .5s;
+}
+.footer-part i:hover{
+    color: black;
+}
